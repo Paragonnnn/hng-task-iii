@@ -1,0 +1,55 @@
+*{
+    /* outline: solid 1px red; */
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.sign_in_container{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 50px 20px;
+    text-align: center;
+    background-color: lightblue;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.452);
+}
+.input_cont{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+}
+.input{
+    padding: 5px 10px;
+    font-size: 16px;
+    margin-top: 50px;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 2px 1px black;
+    border-radius: 5px;
+    background-color: transparent;
+}
+.log_in_btn{
+    margin-top: 50px;
+    width: 150px;
+    font-size: 30px;
+    padding: 5px 10px;
+    background-color: transparent;
+    outline: none;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.507);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.log_in_btn:hover{
+    box-shadow: 0 0 5px 1px black;
+}
